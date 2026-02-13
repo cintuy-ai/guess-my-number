@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess My Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="confetti"></div>
+
+    <div class="container">
+        <h1>🎮 Guess My Number 🎮</h1>
+        <p>Tebak angka dari <b>1-100</b></p>
+    <div class="level"
+        <label for="levelselect">Level1:</label>
+        <select id="levelSelect">
+            <option value="easy">Easy (1-10)</option>
+            <option value="medium" selected>Medium (1-50)</option>
+            <option value="hard">Hard (1-100)</option>
+        </select>
+    </div>
+        <input type="number"id="guessInput"placeholder="Masukkan angka. . .">
+        <button id="guessBtn">Tebak</button>
+
+        <p id="message">Game dimulai!</p>
+        <button id="newGameBtn">New Game</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
